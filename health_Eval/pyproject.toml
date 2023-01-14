@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "health-eval"
+version = "0.0.1"
+description = "A unified health evaluation parameter"
+authors = ["Nandish Shah <na2465@srmist.edu.in>"]
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/NANDISHSHAH/Health_Eval"
+packages = [{include = "health_eval"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
